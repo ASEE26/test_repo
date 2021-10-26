@@ -9,5 +9,7 @@ int main(){
     
     cout<<"Codigo de prueba"<<endl;
 
+    cout<<"Hoy es lunes"<<endl
+
     return 0;
 }

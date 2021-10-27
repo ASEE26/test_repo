@@ -7,7 +7,7 @@ public:
     const char *getPrimerNombre() const;
     const char *getPrimerApellido() const;
 
-    const int getNumEmpleados() const;
+    static const int getNumEmpleados();
     void contar();
 
 private:

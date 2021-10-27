@@ -20,7 +20,7 @@ Empleado::Empleado(const char *const nombre,const char *const apellido){
 void Empleado::contar(){
 	numEmpleados++;
 }
-const int Empleado::getNumEmpleados()const{
+const int Empleado::getNumEmpleados(){
 	return numEmpleados;
 }
 const char Empleado::getPrimerNombre()const{

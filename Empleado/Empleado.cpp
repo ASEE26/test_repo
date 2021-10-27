@@ -8,10 +8,12 @@ using std::strcpy;
 
 #include"Empleado.hpp"
 
+int Empleado::numEmpleados=0;
+
 Empleado::Empleado(const char *const nombre,const char *const apellido){
 	primerNombre= new char[strlen(nombre)+1];
-	strcpy(pirmerNombre,nombre);
-	primeApellido= new char[strlen(apellido)+1];
+	strcpy(primerNombre,nombre);
+	primerApellido= new char[strlen(apellido)+1];
 	strcpy(primerApellido,apellido);
 	contar();
 }

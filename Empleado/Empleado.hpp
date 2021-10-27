@@ -13,5 +13,5 @@ public:
 private:
     char *primerNombre;
     char *primerApellido;
-    int numEmpleados = 0;
+    static int numEmpleados;
 };

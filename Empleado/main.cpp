@@ -2,7 +2,7 @@
 using std::endl;
 using std::cout;
 
-#include"Empleado.h"
+#include"Empleado.hpp"
 
 int main(){
 	

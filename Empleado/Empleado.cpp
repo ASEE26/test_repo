@@ -6,7 +6,7 @@ using std::cout;
 using std::strlen;
 using std::strcpy;
 
-#include"Empleado.hpp"
+#include "Empleado.h"
 
 int Empleado::numEmpleados=0;
 
@@ -23,9 +23,9 @@ void Empleado::contar(){
 const int Empleado::getNumEmpleados(){
 	return numEmpleados;
 }
-const char Empleado::getPrimerNombre()const{
+const char *Empleado::getPrimerNombre() const{
     return primerNombre;
 }
-const char Empleado::getPrimerApellido()const{
+const char *Empleado::getPrimerApellido() const{
     return primerApellido;
 }

@@ -9,7 +9,9 @@ int main(){
     
     cout<<"Codigo de prueba"<<endl;
 
-    cout<<"Hoy es lunes"<<endl
+    cout<<"Hoy es lunes"<<endl;
+    
+    cout<<"Hoy es martes"<<endl;
 
     return 0;
 }

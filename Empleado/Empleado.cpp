@@ -10,13 +10,15 @@ using std::strcpy;
 
 int Empleado::numEmpleados=0;
 
-Empleado::Empleado(const char *const nombre,const char *const apellido, const char *const identidad){
+Empleado::Empleado(const char *const nombre,const char *const apellido, const char *const identidad, const char *const talentoH){
 	primerNombre= new char[strlen(nombre)+1];
 	strcpy(primerNombre,nombre);
 	primerApellido= new char[strlen(apellido)+1];
 	strcpy(primerApellido,apellido);
 	iD= new char[strlen(identidad)+1];
 	strcpy(iD,identidad);
+	tH= new char[strlen(talentoH)+1];
+	strcpy(tH,talentoH);
 	
 	contar();
 }
@@ -34,4 +36,7 @@ const char *Empleado::getPrimerApellido() const{
 }
 const char *Empleado::getIdentidad() const{
     return iD;
+}
+const char *Empleado::gettalentoHumano() const{
+    return tH;
 }

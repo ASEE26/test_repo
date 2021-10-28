@@ -10,6 +10,7 @@ int main(){
 	
 	cout<<"El nombre del empleado es: "<<empleado1.getPrimerNombre()<<endl;
 	cout<<"El apellido del empleado es: "<<empleado1.getPrimerApellido()<<endl;
+	cout<<"La identidad del empleado es: "<<empleado1.getIdentidad()<<endl;
 	cout<<"La cantidad de empleados es: "<<empleado1.getNumEmpleados()<<endl;	
 
 	return 0;

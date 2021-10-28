@@ -2,7 +2,7 @@ class Empleado
 {
 
 public:
-    Empleado(const char *const, const char *const, const char *const);
+    Empleado(const char *const, const char *const, const char *const, const char *const);
 
     const char *getPrimerNombre() const;
     const char *getPrimerApellido() const;
